@@ -1,10 +1,10 @@
 # Spotify Data Analysis Project
 
-A comprehensive data analysis project that processes personal Spotify streaming history to generate insights and visualizations. This project demonstrates proficiency in Python, SQL, data cleaning, and data visualization.
+A comprehensive data analysis project that processes my personal Spotify streaming history to generate insights and visualizations. This project demonstrates proficiency in Python, SQL, data cleaning, and data visualization.
 
 ## Project Overview
 
-This project analyzes Spotify listening history data by:
+This project analyzes my Spotify listening history data by:
 - Extracting and cleaning data from Spotify's exported JSON files
 - Converting and storing data in SQLite for efficient querying
 - Generating statistical summaries and visualizations
@@ -26,8 +26,14 @@ This project analyzes Spotify listening history data by:
 ├── condensed.csv                        # Processed Spotify data (CSV format)
 ├── spotify.sqlite                       # SQLite database with spotify_db table
 ├── Streaming_History_Audio_2024-2025_2.json  # Raw Spotify export data
+├── Spotify Analysis Dashboard.png       # Image of my public Tableau dashboard 
 └── README.md                            # Project documentation
 ```
+
+## Tableau Dashboard
+- This dashboard displays charts showing my top 25 artists, albums, and songs.
+  
+![Image of Tableau Dashboard](https://github.com/tbosto072/Spotify-Data-Analysis-Project/blob/main/Spotify%20Analysis%20Dashboard.png)
 
 ## Prerequisites
 
@@ -102,16 +108,6 @@ The analysis provides:
 - **Visualization**: matplotlib
 - **Database**: SQLite3
 - **Data Format**: JSON, CSV
-
-## Future Enhancements
-
-Potential extensions for this project:
-- Time-series analysis of listening patterns over months/years
-- Genre classification and distribution analysis
-- User interaction dashboard with plotly/dash
-- Statistical analysis of listening duration patterns
-- Export analysis results to interactive HTML reports
-- Playlist recommendation engine based on listening history
 
 ## Notes
 
