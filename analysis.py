@@ -18,10 +18,13 @@ df_condensed = data[['master_metadata_track_name', 'master_metadata_album_album_
 #Rename columns
 df_condensed.columns = ['track_name', 'album_name', 'artist_name', 'ms_played']
 
+#Clean any null data
+df_condensed.dropna(inplace=True)
+
 #Convert condensed DataFrame to CSV file
 df_condensed.to_csv('condensed.csv', index=False)
 
-#Function to converty CSV file into SQLite table
+#Function to convert CSV file into SQLite table
 def csv_to_sqlite():
     try:
         df = pd.read_csv('condensed.csv')
