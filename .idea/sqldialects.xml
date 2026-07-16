@@ -2,5 +2,8 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$USER_HOME$/Downloads/beyonce_stream_count_ranking.sql" dialect="SQLite" />
+    <file url="file://$USER_HOME$/Downloads/highest-streaming-day.sql" dialect="SQLite" />
+    <file url="file://$USER_HOME$/Downloads/top-50-most-streamed-albums.sql" dialect="SQLite" />
+    <file url="file://$USER_HOME$/Downloads/top-50-most-streamed-artists.sql" dialect="SQLite" />
   </component>
 </project>
